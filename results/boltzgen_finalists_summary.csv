@@ -1,0 +1,21 @@
+rank,design,length,boltzgen_iptm,boltzgen_ipsae,boltzgen_min_pae,boltzgen_ptm,boltzgen_pass_filters,hotspots_touched_of_3,mouse_different_residues_touched,S418_contact_pairs,mouse_diff_share,nearest_acid_to_H409,acid_H409_dist_A,min_atom_distance_A,antibody_like_motif,novelty_result
+1,d37,91,0.61,0.37,3.6,0.85,True,3/3,"R353,S418,K443,I467,S468",18,0.26,E19,4.1,2.1,False,"2/4 (failed, not submitted)"
+2,d31,91,0.58,0.34,4.1,0.82,True,3/3,"R353,S418,K443,I467,S468",4,0.25,D83,6.5,2.0,False,3/4 (submitted)
+3,d24,90,0.6,0.37,3.7,0.83,True,3/3,"R353,S418,I467",4,0.15,E18,5.3,2.4,False,"2/4 (failed, not submitted)"
+4,d04,93,0.54,0.25,5.5,0.8,True,3/3,"R353,S418,K443,I467,S468",6,0.22,E56,2.5,2.1,False,"2/4 (failed, not submitted)"
+5,d21,90,0.5,0.18,6.0,0.81,True,3/3,"R353,S418,K443,I467",13,0.2,E10,9.6,2.4,False,3/4 (submitted)
+6,d32,91,0.62,0.4,3.7,0.84,True,3/3,"R353,S418,I467",9,0.12,E69,2.7,2.5,False,3/4 (submitted)
+7,d33,91,0.54,0.25,5.1,0.79,True,3/3,"R353,S418,K443,I467,S468",18,0.2,D45,7.3,2.2,False,3/4 (submitted)
+8,d96,98,0.5,0.18,5.8,0.81,True,3/3,"R353,S418,I467,S468",2,0.2,E45,5.8,2.3,False,3/4 (submitted)
+9,d20,90,0.47,0.16,6.3,0.79,True,3/3,"R353,S418,K443,I467,S468",8,0.17,D38,5.8,2.1,False,3/4 (submitted)
+10,d39,91,0.46,0.17,6.6,0.8,True,3/3,"R353,S418,I467",6,0.17,E4,10.5,2.4,False,3/4 (submitted)
+11,d73,98,0.47,0.15,5.8,0.78,True,3/3,"R353,S418,K443,S468",11,0.19,E85,4.3,2.3,False,3/4 (submitted)
+12,d03,93,0.39,0.06,8.9,0.83,True,3/3,"R353,S418,I467,S468",8,0.15,E61,3.4,2.4,False,not uploaded
+13,d34,91,0.49,0.17,6.0,0.77,True,3/3,"R353,S418,K443,I467,S468",13,0.22,E59,2.8,1.7,False,not uploaded
+14,d27,90,0.55,0.23,5.0,0.77,True,3/3,"R353,I467,S468",0,0.15,E56,6.7,2.1,False,3/4 (submitted)
+15,d88,81,0.35,0.02,10.7,0.81,True,3/3,"R353,S418,I467,S468",13,0.16,E46,4.0,2.2,False,not uploaded
+16,d86,81,0.35,0.06,9.1,0.82,True,3/3,"R353,S418,I467,S468",2,0.12,D12,7.6,2.6,False,not uploaded
+17,d92,98,0.52,0.19,5.7,0.77,True,3/3,"R353,S418,K443,I467,S468",12,0.15,E45,4.3,2.1,True,not uploaded
+18,d38,91,0.52,0.23,5.0,0.77,True,3/3,"R353,S418,K443,I467,S468",8,0.21,E58,4.4,2.5,False,3/4 (submitted)
+19,d00,93,0.32,0.01,10.8,0.76,True,3/3,"R353,S418,I467,S468",4,0.13,E56,7.4,2.3,True,not uploaded
+20,d30,91,0.31,0.01,12.3,0.81,True,3/3,"R353,S418,K443,S468",13,0.24,E43,10.4,2.1,False,not uploaded

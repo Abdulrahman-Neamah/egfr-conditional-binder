@@ -1,0 +1,10 @@
+# keep design sequences and raw platform outputs out of the repo
+designs.csv
+*.zip
+settings.json
+boltz2_inputs/
+egfr_spec.yaml
+*.cif
+*.pdb
+.ipynb_checkpoints/
+__pycache__/

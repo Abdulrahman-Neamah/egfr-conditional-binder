@@ -1,0 +1,6 @@
+run,target,hotspots,designs,best_iptm,best_ipsae,designs_iptm_ge_0.5,outcome
+1,"1TNF trimer (A,B,C)","A: K65,Q67,E110,F144; C: L75,K90,N92,N137 (up to 36 A apart)",80,0.41,0.01,0,"none usable; hotspots too spread out"
+2,"1TNF dimer (A,C only)","A: K65,Q67,F144; C: L75",60,"about 0.5+",0.31,23,"INVALID: binders sat where chain B belongs"
+3,"1TNF trimer (A,B,C)","A: K65,Q67,F144; C: L75",50,0.46,0.11,0,"none usable"
+4,"1TNF trimer (A,B,C)","C: S86,Y87,Q88,V91",80,0.34,0.00,0,"none usable; 2/20 finalists touched any hotspot"
+5,"1TNF trimer (A,B,C)","none (binding-site filter off)",80,0.45,0.04,0,"none usable; target not tractable in this setup"

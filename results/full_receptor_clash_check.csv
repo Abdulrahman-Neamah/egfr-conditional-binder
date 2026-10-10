@@ -1,0 +1,51 @@
+set,design,model,align_rmsd_A,min_dist_to_other_domains_A,clashing_atoms,atoms_within_4A
+BoltzGen finalist,d37,rank1,0.91,22.1,0,0
+BoltzGen finalist,d31,rank2,0.92,23.5,0,0
+BoltzGen finalist,d24,rank3,0.78,21.8,0,0
+BoltzGen finalist,d04,rank4,0.71,22.1,0,0
+BoltzGen finalist,d21,rank5,0.7,22.5,0,0
+BoltzGen finalist,d32,rank6,0.77,23.4,0,0
+BoltzGen finalist,d33,rank7,0.67,22.2,0,0
+BoltzGen finalist,d96,rank8,0.76,21.3,0,0
+BoltzGen finalist,d20,rank9,1.01,24.5,0,0
+BoltzGen finalist,d39,rank10,0.77,19.5,0,0
+BoltzGen finalist,d73,rank11,0.67,20.9,0,0
+BoltzGen finalist,d03,rank12,0.86,22.6,0,0
+BoltzGen finalist,d34,rank13,0.91,21.7,0,0
+BoltzGen finalist,d27,rank14,1.1,23.2,0,0
+BoltzGen finalist,d88,rank15,0.79,23.2,0,0
+BoltzGen finalist,d86,rank16,1.05,20.9,0,0
+BoltzGen finalist,d92,rank17,0.98,22.0,0,0
+BoltzGen finalist,d38,rank18,0.86,21.4,0,0
+BoltzGen finalist,d00,rank19,0.65,26.1,0,0
+BoltzGen finalist,d30,rank20,0.74,24.3,0,0
+Boltz-2,d32 (mouse),model 0,0.69,23.8,0,0
+Boltz-2,d32 (mouse),model 1,0.66,23.9,0,0
+Boltz-2,d32 (mouse),model 2,0.72,23.8,0,0
+Boltz-2,d32 (mouse),model 3,0.67,24.0,0,0
+Boltz-2,d32 (mouse),model 4,0.7,23.5,0,0
+Boltz-2,d32 (human),model 0,0.84,23.7,0,0
+Boltz-2,d32 (human),model 1,0.81,24.0,0,0
+Boltz-2,d32 (human),model 2,1.01,23.9,0,0
+Boltz-2,d32 (human),model 3,0.76,23.9,0,0
+Boltz-2,d32 (human),model 4,0.71,24.3,0,0
+Boltz-2,d24 (mouse),model 0,0.63,23.6,0,0
+Boltz-2,d24 (mouse),model 1,0.59,24.0,0,0
+Boltz-2,d24 (mouse),model 2,0.58,23.8,0,0
+Boltz-2,d24 (mouse),model 3,0.58,23.7,0,0
+Boltz-2,d24 (mouse),model 4,0.59,23.7,0,0
+Boltz-2,d31 (mouse),model 0,0.81,21.1,0,0
+Boltz-2,d31 (mouse),model 1,0.74,21.6,0,0
+Boltz-2,d31 (mouse),model 2,0.8,22.3,0,0
+Boltz-2,d31 (mouse),model 3,0.61,24.6,0,0
+Boltz-2,d31 (mouse),model 4,0.73,24.7,0,0
+Boltz-2,d27 (mouse),model 0,0.65,23.1,0,0
+Boltz-2,d27 (mouse),model 1,0.59,23.1,0,0
+Boltz-2,d27 (mouse),model 2,0.63,23.2,0,0
+Boltz-2,d27 (mouse),model 3,0.67,23.4,0,0
+Boltz-2,d27 (mouse),model 4,0.6,23.1,0,0
+Boltz-2,d32_A62E (mouse),model 0,0.66,24.1,0,0
+Boltz-2,d32_A62E (mouse),model 1,0.69,23.6,0,0
+Boltz-2,d32_A62E (mouse),model 2,0.65,23.5,0,0
+Boltz-2,d32_A62E (mouse),model 3,0.61,23.6,0,0
+Boltz-2,d32_A62E (mouse),model 4,0.66,23.5,0,0
