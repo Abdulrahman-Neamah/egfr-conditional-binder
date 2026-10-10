@@ -80,7 +80,7 @@ a six-chain Boltz-2 job that gave meaningless scores, three designs failing the 
 * Tools: [BoltzGen](https://github.com/HannesStark/boltzgen), [Boltz-2](https://github.com/jwohlwend/boltz),
 [PROPKA](https://github.com/jensengroup/propka), Biopython. Each has its own license; please check them
 before reuse.
-* The workflow and scripts were developed with help from Claude (Anthropic). Edit or remove this line as you prefer.
+* The workflow and scripts were developed with help from Claude (Anthropic).
 * Competition terms (publication license, effect on patentability) apply to the designs, not to this code.
 
 ## License
