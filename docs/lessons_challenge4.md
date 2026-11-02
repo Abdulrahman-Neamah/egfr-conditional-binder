@@ -69,8 +69,10 @@ designs): `notebooks/`. Reusable scripts: `scripts/07`, `scripts/08`, `scripts/0
     For comparison, the GLP-1R groove that worked in Challenge 3 was 360-440 A^2 apolar, and
     the TNF-alpha sites that failed were 24-133 A^2. The usable TfR1 patches sit in the
     middle band, and nothing in the apical domain clears the bar that has predicted success
-    so far. `results/tfr1_site_screen.csv` scores all 281 patches on all four criteria:
-    23 are at the dimer interface, 21 in the transferrin footprint, 57 usable.
+    so far. `results/tfr1_site_screen.csv` now scores every exposed residue on all four
+    criteria (see items 33 and 34 for the corrected method): of 230 exposed centres, 74 have
+    a patch member at the dimer interface, 46 have one in the transferrin footprint, and 53
+    survive.
 
 25. **`boltzgen check` verifies cropped-target indices**, by writing `<spec>.cif` with the
     binding-site residues at B-factor 80. Reading that file confirmed indices count from the
@@ -134,3 +136,51 @@ designs): `notebooks/`. Reusable scripts: `scripts/07`, `scripts/08`, `scripts/0
     selection prompt states that unverifiable claims weigh little. A no-submission costs
     nothing; a submission that contradicts its own method statement costs credibility. The
     negative result, with the screen that produced it, is the more useful artifact.
+
+33. **Check that a hotspot is solvent-exposed before naming it. I did not, and it probably
+    cost the campaign.** The five residues given to the generator for Site P were chosen on
+    the *apolar area of the surrounding patch* - the neighbourhood around K189 totals
+    239 A^2 - without ever asking how exposed the named residues themselves were. Computing
+    relative solvent accessibility on the isolated protomer (Shrake-Rupley, Tien et al. 2013
+    maximum ASA) gives:
+
+    | residue | RSA |
+    |---|---|
+    | **K189** | **0.143** |
+    | **V192** | **0.154** |
+    | V380 | 0.371 |
+    | L381 | 0.389 |
+    | K382 | 0.452 |
+
+    K189 and V192 are ~14-15% exposed: mostly buried in their own protomer, and unreachable
+    for a binder. Two of five hotspots were therefore impossible to satisfy. That is a
+    plausible part of the failure mode we kept seeing - high-confidence designs that engaged
+    none of the requested residues (item 28) - because the generator was asked to contact
+    things it could not reach and did the next best thing. `07_tfr1_site_screen.py` now gates
+    on RSA >= 0.25, and `09_build_target_crop.py` prints each hotspot's RSA and refuses to
+    pass over a buried one silently.
+
+34. **Aggregate distances over the patch, conservation over the residue.** Two screens of
+    the same surface disagreed on 57 of 230 patches, purely over how to aggregate: judging
+    the centre residue alone gave 73 usable patches, disqualifying a patch if ANY member
+    failed gave 20. Neither is right.
+    - For **distance**, aggregate over the whole patch. A binder covers the neighbourhood,
+      so a member buried at the dimer interface really does block it. 20 of the 57 flips were
+      of this kind, and the centre-only screen missed every one.
+    - For **conservation**, judge the centre. Requiring the patch *mean* punishes a perfectly
+      good conserved hotspot for having variable fringes (35 of the 57 flips), and - worse -
+      it can pass a hotspot that differs in mouse itself because its neighbours are conserved.
+      E272 and T536 both passed that way. Report the patch mean; do not gate on it.
+
+    The screen in this folder uses: RSA >= 0.25 and identity at the centre, minimum distance
+    over all patch members, and patch mean conservation reported only.
+
+35. **An independent reimplementation is worth more than a re-read.** The corrected screen
+    was written twice, from the structures up, by two different agents working from the same
+    spec but no shared code. They agree on every RSA to three decimals, on all 230 exposed
+    centres, and on the 74/46 interface counts. That agreement is why the numbers above are
+    trustworthy; re-reading my own script would have reproduced my own blind spot, as it did
+    for three runs. The second implementation also produced evidence I had not: deposited
+    chains B and D of 3S9L make 183 and 157 heavy-atom contacts with chain A, against 1422
+    for the true symmetry partner - a quantitative reason to distrust the asymmetric unit,
+    where I had only the REMARK 350 annotation.
