@@ -1,282 +1,231 @@
-residue,domain,apolar_area,apolar_frac,conserved_frac_mouse,dist_to_dimer_partner_A,dist_to_transferrin_A,dimer_interface,transferrin_contact,usable
-D604,protease-like,276,0.41,1.0,11.46,10.02,False,False,True
-K189,apical,239,0.42,0.75,11.26,20.89,False,False,True
-V380,apical,237,0.35,0.78,21.52,28.89,False,False,True
-D194,apical,225,0.36,0.75,26.5,32.88,False,False,True
-A269,apical,191,0.25,0.8,23.6,32.3,False,False,True
-K382,apical,178,0.33,1.0,18.3,22.77,False,False,True
-V192,apical,178,0.29,0.88,23.85,28.18,False,False,True
-L381,apical,178,0.3,0.88,16.43,26.07,False,False,True
-N727,helical,171,0.24,0.8,8.75,21.07,False,False,True
-L537,protease-like,161,0.31,0.78,17.82,28.18,False,False,True
-D538,protease-like,161,0.36,0.78,22.27,29.96,False,False,True
-L303,apical,155,0.3,0.88,17.13,30.71,False,False,True
-E272,apical,148,0.23,0.78,21.95,35.61,False,False,True
-Y309,apical,143,0.3,0.86,8.69,22.03,False,False,True
-D435,protease-like,142,0.23,0.75,17.45,16.48,False,False,True
-S492,protease-like,129,0.22,0.88,35.77,23.86,False,False,True
-F494,protease-like,117,0.28,1.0,26.08,19.81,False,False,True
-V605,protease-like,108,0.13,0.82,8.69,11.36,False,False,True
-K177,protease-like,106,0.13,0.78,12.4,13.2,False,False,True
-K600,protease-like,101,0.21,1.0,15.77,9.92,False,False,True
-E714,helical,89,0.17,0.86,16.39,16.42,False,False,True
-S706,helical,87,0.17,0.89,10.42,19.5,False,False,True
-H300,apical,82,0.32,1.0,21.12,31.26,False,False,True
-S327,apical,82,0.15,0.83,13.24,30.74,False,False,True
-T536,protease-like,78,0.15,0.75,21.64,25.64,False,False,True
-K495,protease-like,75,0.15,1.0,26.84,22.44,False,False,True
-T239,apical,71,0.08,0.8,30.47,26.45,False,False,True
-G158,protease-like,67,0.11,0.78,18.85,21.35,False,False,True
-S704,helical,65,0.18,0.75,13.09,23.52,False,False,True
-K531,protease-like,62,0.08,0.89,29.11,13.6,False,False,True
-V532,protease-like,62,0.09,0.88,25.62,16.18,False,False,True
-S530,protease-like,62,0.1,0.88,27.86,10.88,False,False,True
-E533,protease-like,62,0.09,0.75,25.89,18.57,False,False,True
-R174,protease-like,54,0.08,0.86,10.57,13.48,False,False,True
-E343,apical,53,0.11,0.75,44.96,46.22,False,False,True
-E156,protease-like,50,0.1,0.89,22.49,25.17,False,False,True
-G456,protease-like,50,0.18,0.8,18.83,25.6,False,False,True
-R325,apical,49,0.12,0.8,8.05,26.53,False,False,True
-N608,helical,48,0.14,1.0,15.82,10.75,False,False,True
-N493,protease-like,44,0.09,1.0,31.99,22.23,False,False,True
-E559,protease-like,44,0.07,0.89,34.4,27.66,False,False,True
-K261,apical,38,0.1,0.86,30.59,27.4,False,False,True
-K240,apical,32,0.04,0.88,23.82,26.87,False,False,True
-K534,protease-like,30,0.07,0.8,21.76,19.03,False,False,True
-P710,helical,25,0.06,0.86,16.63,15.56,False,False,True
-A711,helical,25,0.05,0.86,15.21,17.43,False,False,True
-G705,helical,25,0.08,0.86,13.26,21.38,False,False,True
-S159,protease-like,0,0.0,0.78,19.8,22.33,False,False,True
-Q160,protease-like,0,0.0,0.78,19.33,20.35,False,False,True
-E175,protease-like,0,0.0,0.8,15.82,18.5,False,False,True
-D560,protease-like,0,0.0,0.86,37.14,24.83,False,False,True
-K486,protease-like,0,0.0,1.0,23.24,29.56,False,False,True
-P696,helical,0,0.0,0.86,8.76,27.87,False,False,True
-Q431,protease-like,0,0.0,1.0,16.48,20.36,False,False,True
-S695,helical,0,0.0,0.89,8.46,27.88,False,False,True
-T561,protease-like,0,0.0,0.83,35.41,29.22,False,False,True
-K241,apical,0,0.0,0.8,27.96,25.49,False,False,True
-H603,protease-like,562,0.6,0.73,12.17,8.57,False,False,False
-S644,helical,477,0.47,1.0,4.88,3.12,False,True,False
-Q443,protease-like,428,0.56,0.5,13.19,6.3,False,False,False
-W641,helical,366,0.56,1.0,3.48,5.4,True,False,False
-Y123,protease-like,337,0.4,0.78,19.23,3.31,False,True,False
-L122,protease-like,337,0.39,0.73,18.28,6.42,False,False,False
-W124,protease-like,337,0.36,0.73,20.63,6.16,False,False,False
-K128,protease-like,337,0.33,0.67,23.11,6.75,False,False,False
-D126,protease-like,337,0.43,0.67,23.39,5.94,False,False,False
-D125,protease-like,337,0.45,0.62,23.47,3.73,False,True,False
-G647,helical,330,0.46,1.0,9.62,3.69,False,True,False
-R646,helical,330,0.41,1.0,8.3,3.39,False,True,False
-L212,apical,324,0.55,0.5,40.37,49.42,False,False,False
-L209,apical,324,0.35,0.45,41.89,56.12,False,False,False
-V210,apical,324,0.41,0.3,44.34,56.48,False,False,False
-Y211,apical,324,0.56,0.29,43.27,54.2,False,False,False
-P249,apical,291,0.36,0.5,35.99,38.07,False,False,False
-E244,apical,291,0.29,0.44,27.64,25.68,False,False,False
-N758,helical,261,0.35,0.88,5.42,3.02,False,True,False
-D757,helical,261,0.37,0.86,6.5,6.29,False,False,False
-G441,protease-like,252,0.39,0.62,18.28,10.76,False,False,False
-D440,protease-like,252,0.36,0.56,20.62,12.82,False,False,False
-R208,apical,247,0.32,0.44,41.87,54.38,False,False,False
-D204,apical,247,0.25,0.42,41.68,57.1,False,False,False
-T248,apical,247,0.33,0.29,36.86,37.38,False,False,False
-K514,protease-like,241,0.33,0.56,30.6,12.39,False,False,False
-Q520,protease-like,241,0.28,0.5,34.48,14.93,False,False,False
-N292,apical,241,0.39,0.44,43.03,47.08,False,False,False
-D648,helical,233,0.24,1.0,5.44,3.93,False,True,False
-R129,protease-like,227,0.29,0.67,25.53,9.29,False,False,False
-K193,apical,225,0.3,0.7,27.19,32.2,False,False,False
-V397,protease-like,225,0.36,0.62,3.97,9.02,True,False,False
-Y643,helical,219,0.39,1.0,7.86,3.64,False,True,False
-D245,apical,215,0.26,0.57,32.91,27.85,False,False,False
-Y247,apical,215,0.36,0.2,37.52,35.24,False,False,False
-K394,protease-like,212,0.36,0.5,3.54,10.13,True,False,False
-F321,apical,211,0.47,0.86,6.21,13.52,False,False,False
-Y573,protease-like,204,0.26,0.3,32.06,34.79,False,False,False
-Y523,protease-like,201,0.19,0.62,32.11,9.63,False,False,False
-E266,apical,194,0.29,0.7,24.63,27.62,False,False,False
-A293,apical,192,0.29,0.56,44.16,47.85,False,False,False
-E294,apical,192,0.4,0.5,42.01,46.22,False,False,False
-N615,helical,188,0.29,0.8,15.81,6.16,False,False,False
-S616,helical,188,0.3,0.78,19.08,7.89,False,False,False
-K717,helical,182,0.19,0.7,15.75,15.3,False,False,False
-K374,apical,182,0.29,0.5,34.57,48.13,False,False,False
-G207,apical,180,0.2,0.45,39.86,56.01,False,False,False
-N372,apical,180,0.15,0.43,38.39,51.36,False,False,False
-K205,apical,180,0.18,0.36,41.45,57.18,False,False,False
-P399,protease-like,176,0.51,0.6,3.3,9.94,True,False,False
-F396,protease-like,176,0.37,0.5,7.75,8.52,False,False,False
-Q285,apical,170,0.24,0.6,44.22,39.3,False,False,False
-P289,apical,170,0.32,0.57,42.14,37.56,False,False,False
-V291,apical,170,0.33,0.5,44.97,44.81,False,False,False
-T518,protease-like,168,0.27,0.62,37.35,18.23,False,False,False
-G519,protease-like,168,0.34,0.5,36.36,14.68,False,False,False
-E214,apical,166,0.27,0.44,38.79,46.07,False,False,False
-L619,helical,162,0.24,0.8,16.16,3.5,False,True,False
-K130,protease-like,162,0.21,0.7,23.05,11.73,False,False,False
-N317,apical,161,0.59,0.75,3.43,9.41,True,False,False
-T263,apical,161,0.24,0.73,24.89,30.21,False,False,False
-F187,protease-like,161,0.28,0.62,9.65,11.32,False,False,False
-N331,apical,157,0.42,0.57,17.46,37.39,False,False,False
-Q524,protease-like,156,0.22,0.62,34.84,12.31,False,False,False
-R719,helical,156,0.13,0.62,13.43,13.5,False,False,False
-K720,helical,156,0.18,0.56,18.09,15.17,False,False,False
-N512,protease-like,156,0.21,0.56,26.15,8.11,False,False,False
-Q511,protease-like,156,0.19,0.44,29.26,8.69,False,False,False
-F521,protease-like,156,0.2,0.44,32.78,9.06,False,False,False
-E383,apical,155,0.3,0.71,11.5,16.93,False,False,False
-K145,protease-like,155,0.28,0.38,29.21,35.93,False,False,False
-R668,helical,152,0.21,0.67,3.15,6.82,True,False,False
-L274,apical,148,0.2,0.7,26.76,32.79,False,False,False
-N275,apical,148,0.24,0.67,26.27,36.89,False,False,False
-S324,apical,143,0.27,0.86,5.23,23.46,False,False,False
-P323,apical,143,0.37,0.8,3.95,21.08,True,False,False
-K439,protease-like,142,0.34,0.67,19.32,12.81,False,False,False
-V437,protease-like,142,0.23,0.62,13.28,12.64,False,False,False
-L438,protease-like,142,0.21,0.62,14.97,11.72,False,False,False
-I277,apical,142,0.18,0.55,27.9,42.24,False,False,False
-T572,protease-like,142,0.29,0.43,33.7,38.8,False,False,False
-K574,protease-like,142,0.23,0.38,35.85,38.71,False,False,False
-Q640,helical,141,0.35,1.0,6.49,3.68,False,True,False
-S638,helical,141,0.18,0.62,3.18,7.4,True,False,False
-A225,apical,141,0.33,0.43,22.87,35.23,False,False,False
-K224,apical,141,0.33,0.43,18.8,35.6,False,False,False
-S195,apical,137,0.26,0.71,28.77,34.12,False,False,False
-N527,protease-like,135,0.18,0.78,30.84,6.87,False,False,False
-E582,protease-like,133,0.18,0.44,33.26,25.69,False,False,False
-T376,apical,132,0.2,0.3,30.43,41.89,False,False,False
-T491,protease-like,129,0.17,0.7,34.49,24.91,False,False,False
-R623,helical,125,0.21,0.62,16.06,3.18,False,True,False
-D624,helical,125,0.21,0.62,15.4,6.41,False,False,False
-A226,apical,124,0.3,0.43,25.04,38.82,False,False,False
-T227,apical,124,0.27,0.38,27.43,42.17,False,False,False
-L167,protease-like,122,0.24,0.71,14.9,17.89,False,False,False
-E163,protease-like,122,0.19,0.7,14.67,16.79,False,False,False
-N171,protease-like,122,0.2,0.67,15.71,20.11,False,False,False
-N164,protease-like,122,0.24,0.62,19.38,22.54,False,False,False
-Y168,protease-like,122,0.27,0.5,17.95,22.69,False,False,False
-N626,helical,116,0.18,0.5,12.88,3.62,False,True,False
-Q627,helical,116,0.16,0.5,15.34,7.55,False,False,False
-Y628,helical,116,0.09,0.42,11.66,8.23,False,False,False
-A630,helical,116,0.15,0.38,11.92,6.31,False,False,False
-R629,helical,116,0.15,0.38,10.7,2.26,False,True,False
-E634,helical,116,0.18,0.29,10.08,8.66,False,False,False
-K633,helical,116,0.18,0.29,8.7,5.84,False,False,False
-G252,apical,115,0.19,0.62,32.56,42.0,False,False,False
-N251,apical,115,0.18,0.56,31.47,39.48,False,False,False
-F650,helical,111,0.14,1.0,12.84,3.32,False,True,False
-S654,helical,111,0.15,1.0,15.2,5.29,False,False,False
-R651,helical,111,0.2,1.0,11.9,2.48,False,True,False
-R655,helical,111,0.16,0.89,9.07,6.53,False,False,False
-E612,helical,111,0.2,0.78,16.98,7.06,False,False,False
-N733,helical,110,0.24,1.0,3.89,19.03,True,False,False
-R732,helical,110,0.24,1.0,3.83,16.12,True,False,False
-S273,apical,109,0.18,0.71,23.98,31.6,False,False,False
-G724,helical,109,0.15,0.67,15.53,24.33,False,False,False
-L718,helical,109,0.1,0.64,17.26,18.71,False,False,False
-A725,helical,109,0.1,0.64,15.39,23.65,False,False,False
-Q721,helical,109,0.12,0.56,20.46,17.9,False,False,False
-N723,helical,109,0.13,0.56,16.51,21.34,False,False,False
-N722,helical,109,0.14,0.5,19.32,16.77,False,False,False
-E728,helical,107,0.18,0.89,6.42,17.78,False,False,False
-E149,protease-like,107,0.19,0.57,29.8,33.62,False,False,False
-L146,protease-like,107,0.21,0.43,25.1,31.89,False,False,False
-N206,apical,105,0.14,0.44,40.89,56.56,False,False,False
-D525,protease-like,104,0.17,0.71,34.01,11.17,False,False,False
-E507,protease-like,104,0.2,0.62,26.11,11.36,False,False,False
-S526,protease-like,104,0.17,0.62,31.71,6.95,False,False,False
-K344,apical,99,0.22,0.71,45.44,49.34,False,False,False
-T569,protease-like,99,0.28,0.43,34.72,37.96,False,False,False
-G567,protease-like,99,0.42,0.2,31.08,37.29,False,False,False
-H318,apical,94,0.45,1.0,3.51,6.8,True,False,False
-M570,protease-like,94,0.2,0.38,35.36,40.75,False,False,False
-I577,protease-like,93,0.12,0.5,35.12,33.19,False,False,False
-R579,protease-like,93,0.15,0.38,37.28,32.95,False,False,False
-E578,protease-like,93,0.16,0.29,38.22,35.75,False,False,False
-T666,helical,92,0.15,0.86,8.62,4.93,False,False,False
-D667,helical,92,0.15,0.86,5.05,2.93,False,True,False
-K665,helical,92,0.1,0.82,9.99,5.78,False,False,False
-V517,protease-like,84,0.12,0.56,35.33,21.39,False,False,False
-K585,protease-like,84,0.13,0.5,29.82,22.3,False,False,False
-S296,apical,80,0.19,0.25,36.53,40.95,False,False,False
-I262,apical,78,0.15,0.67,28.96,27.4,False,False,False
-S620,helical,77,0.15,0.75,17.79,7.26,False,False,False
-Q617,helical,77,0.14,0.62,17.38,10.08,False,False,False
-N215,apical,77,0.19,0.33,37.69,43.96,False,False,False
-K371,apical,74,0.09,0.4,42.32,51.95,False,False,False
-K508,protease-like,72,0.18,0.67,24.04,10.9,False,False,False
-K231,apical,71,0.11,0.5,36.59,46.02,False,False,False
-G636,helical,68,0.14,0.4,4.63,12.8,False,False,False
-K161,protease-like,67,0.09,0.73,22.22,24.78,False,False,False
-K385,protease-like,67,0.13,0.62,11.6,12.36,False,False,False
-R183,protease-like,67,0.27,0.33,6.85,11.73,False,False,False
-Q185,protease-like,67,0.21,0.25,7.03,9.22,False,False,False
-L471,protease-like,65,0.7,1.0,4.73,18.36,False,False,False
-S472,protease-like,65,0.47,1.0,3.67,16.06,True,False,False
-L730,helical,62,0.13,1.0,7.2,20.92,False,False,False
-T729,helical,62,0.15,1.0,4.8,21.97,False,False,False
-A529,protease-like,62,0.08,0.73,26.05,13.09,False,False,False
-N150,protease-like,62,0.13,0.5,29.39,32.31,False,False,False
-S151,protease-like,62,0.1,0.5,25.67,28.78,False,False,False
-G142,protease-like,62,0.18,0.4,28.45,31.72,False,False,False
-A340,apical,53,0.12,0.71,44.5,47.42,False,False,False
-W412,protease-like,50,0.16,0.67,26.63,31.14,False,False,False
-P154,protease-like,50,0.07,0.6,26.75,28.69,False,False,False
-G312,apical,49,0.12,0.86,3.64,22.3,True,False,False
-E606,protease-like,48,0.11,1.0,11.66,6.89,False,False,False
-L737,helical,48,0.24,1.0,4.32,17.04,True,False,False
-P688,helical,48,0.52,1.0,3.31,21.39,True,False,False
-N584,protease-like,48,0.09,0.38,29.44,25.02,False,False,False
-P581,protease-like,48,0.08,0.29,36.74,30.56,False,False,False
-A196,apical,46,0.1,0.5,30.51,36.89,False,False,False
-Q197,apical,46,0.07,0.44,33.01,39.09,False,False,False
-D659,helical,43,0.06,0.89,10.33,5.86,False,False,False
-E664,helical,43,0.05,0.78,10.43,3.03,False,True,False
-K673,helical,43,0.19,0.75,3.15,9.06,True,False,False
-V670,helical,43,0.06,0.75,6.37,3.6,False,True,False
-N539,protease-like,40,0.12,0.67,19.43,28.03,False,False,False
-T229,apical,39,0.08,0.67,32.45,48.46,False,False,False
-G260,apical,38,0.09,0.71,32.33,29.34,False,False,False
-I756,helical,37,0.09,0.86,3.59,8.07,True,False,False
-D755,helical,37,0.1,0.83,4.42,9.14,True,False,False
-G751,helical,37,0.15,0.8,4.31,12.74,True,False,False
-D752,helical,37,0.24,0.75,3.44,12.21,True,False,False
-R364,apical,32,0.04,0.58,44.33,42.38,False,False,False
-R613,helical,32,0.09,0.57,18.18,9.76,False,False,False
-T504,protease-like,32,0.08,0.57,23.49,10.72,False,False,False
-E350,apical,32,0.06,0.43,47.77,44.95,False,False,False
-G351,apical,32,0.07,0.43,47.91,42.76,False,False,False
-D352,apical,32,0.05,0.4,46.6,40.05,False,False,False
-E369,apical,32,0.05,0.38,44.82,51.34,False,False,False
-V366,apical,32,0.05,0.38,42.54,42.73,False,False,False
-D676,helical,0,0.0,0.67,4.92,13.71,False,False,False
-N662,helical,0,0.0,0.86,13.04,3.01,False,True,False
-K180,protease-like,0,0.0,0.8,3.31,9.95,True,False,False
-S179,protease-like,0,0.0,0.8,7.09,10.94,False,False,False
-G661,helical,0,0.0,0.88,16.65,3.68,False,True,False
-E694,helical,0,0.0,0.83,6.1,28.91,False,False,False
-K693,helical,0,0.0,0.8,4.01,23.77,True,False,False
-G347,apical,0,0.0,0.67,47.86,49.32,False,False,False
-K477,protease-like,0,0.0,1.0,3.99,14.85,True,False,False
-P354,apical,0,0.0,0.25,42.11,34.4,False,False,False
-D356,apical,0,0.0,0.2,38.41,29.86,False,False,False
-T362,apical,0,0.0,0.6,48.61,43.38,False,False,False
-D360,apical,0,0.0,0.3,46.8,38.81,False,False,False
-S361,apical,0,0.0,0.3,49.46,41.65,False,False,False
-K358,apical,0,0.0,0.44,40.5,32.23,False,False,False
-T359,apical,0,0.0,0.31,43.72,35.33,False,False,False
-S370,apical,0,0.0,0.38,45.53,53.94,False,False,False
-S355,apical,0,0.0,0.29,44.06,32.66,False,False,False
-T286,apical,0,0.0,0.5,43.89,35.68,False,False,False
-K287,apical,0,0.0,0.5,37.45,30.89,False,False,False
-G217,apical,0,0.0,0.43,34.27,37.95,False,False,False
-D562,protease-like,0,0.0,0.71,33.83,31.45,False,False,False
-R588,protease-like,0,0.0,0.57,25.28,17.22,False,False,False
-D139,protease-like,0,0.0,0.43,26.87,26.65,False,False,False
-T658,helical,0,0.0,0.86,15.26,4.42,False,True,False
-T657,helical,0,0.0,0.88,15.39,7.46,False,False,False
-S137,protease-like,0,0.0,0.67,26.84,21.46,False,False,False
-D136,protease-like,0,0.0,0.57,27.51,16.85,False,False,False
-E133,protease-like,0,0.0,0.57,26.66,12.83,False,False,False
-S132,protease-like,0,0.0,0.67,24.86,13.73,False,False,False
+residue,resnum,rsa,n_members,d_dimer_centre,d_tf_centre,d_dimer_patch_min,d_tf_patch_min,conserved_centre,cons_patch_mean,dimer_interface,transferrin_contact,usable,members
+V291,291,0.783,4,45.32,44.81,42.15,37.56,True,0.5,False,False,True,Q285 P289 V291 N292
+S361,361,0.719,5,48.54,41.65,42.81,32.66,True,0.2,False,False,True,Q285 T286 D352 S355 S361
+N206,206,0.715,5,38.76,56.56,38.5,54.38,True,0.4,False,False,True,D204 K205 N206 G207 R208
+N150,150,0.714,4,29.45,32.31,25.42,28.69,True,0.5,False,False,True,E149 N150 S151 P154
+N722,722,0.707,7,18.45,16.77,14.44,15.17,True,0.429,False,False,True,L718 K720 Q721 N722 N723 G724 A725
+S195,195,0.68,6,27.96,34.12,20.41,28.89,True,0.5,False,False,True,D194 S195 A196 Q197 S378 V380
+E244,244,0.674,3,24.3,25.68,24.3,25.68,True,0.333,False,False,True,E244 D245 L274
+P581,581,0.642,7,36.29,30.56,33.21,21.39,True,0.429,False,False,True,T491 V517 I577 E578 R579 P581 E582
+G347,347,0.625,5,46.36,49.32,42.77,42.38,True,0.8,False,False,True,E343 K344 G347 E350 R364
+E533,533,0.62,5,26.05,18.57,21.09,13.6,True,0.8,False,False,True,K495 K531 E533 K534 T536
+S137,137,0.612,4,26.43,21.46,26.01,12.83,True,0.5,False,False,True,E133 D136 S137 D139
+D560,560,0.603,5,37.07,24.83,26.9,22.44,True,0.8,False,False,True,S492 K495 D560 T561 D562
+K439,439,0.6,4,19.1,12.81,14.74,10.76,True,0.75,False,False,True,L438 K439 D440 G441
+G519,519,0.597,6,35.87,14.68,29.91,9.06,True,0.5,False,False,True,K514 V517 T518 G519 Q520 F521
+S273,273,0.587,4,21.57,31.6,20.97,31.6,True,0.5,False,False,True,E272 S273 L274 N275
+Q160,160,0.578,5,20.04,20.35,18.94,20.35,True,0.8,False,False,True,P154 E156 G158 Q160 N164
+E714,714,0.564,6,16.13,16.42,8.84,15.3,True,0.833,False,False,True,G705 S706 P710 E714 K717 L718
+Q197,197,0.553,7,30.73,39.09,24.23,32.88,True,0.286,False,False,True,D194 S195 A196 Q197 N215 G217 S378
+E175,175,0.541,4,15.6,18.5,9.26,13.2,True,0.75,False,False,True,N171 R174 E175 K177
+N275,275,0.532,8,25.05,36.89,20.97,31.6,True,0.625,False,False,True,P249 N251 G252 E272 S273 L274 N275 I277
+G252,252,0.507,6,31.22,42.0,25.05,32.79,True,0.667,False,False,True,P249 N251 G252 L274 N275 I277
+E350,350,0.506,6,45.79,44.95,42.77,40.05,True,0.5,False,False,True,G347 E350 G351 D352 R364 E369
+P289,289,0.503,5,42.15,37.56,36.7,29.22,True,0.4,False,False,True,Q285 T286 P289 V291 T561
+K514,514,0.493,7,29.91,12.39,28.94,8.69,True,0.571,False,False,True,Q511 K514 V517 T518 G519 Q520 F521
+G260,260,0.492,3,31.76,29.34,21.53,29.34,True,1.0,False,False,True,G260 D538 D562
+K534,534,0.49,4,21.25,19.03,16.14,15.56,True,0.5,False,False,True,E533 K534 T536 P710
+N251,251,0.489,7,30.85,39.48,25.05,32.79,True,0.571,False,False,True,T248 P249 N251 G252 L274 N275 I277
+N171,171,0.474,4,14.99,20.11,9.26,13.48,True,0.5,False,False,True,L167 N171 R174 E175
+V517,517,0.466,9,34.94,21.39,29.91,12.39,True,0.667,False,False,True,T491 S492 K514 V517 T518 G519 Q520 P581 E582
+K224,224,0.454,4,19.27,35.6,19.01,35.23,True,0.5,False,False,True,K224 A225 E272 N331
+K382,382,0.452,6,17.4,22.77,11.11,16.93,True,0.833,False,False,True,G158 D194 V380 L381 K382 E383
+D538,538,0.421,4,21.53,29.96,21.09,25.64,True,0.75,False,False,True,G260 K486 T536 D538
+P154,154,0.409,7,25.71,28.69,18.94,20.35,True,0.571,False,False,True,N150 S151 P154 E156 Q160 N164 T569
+S492,492,0.407,6,35.79,23.86,26.9,21.39,True,0.833,False,False,True,T491 S492 K495 V517 D560 T561
+L381,381,0.389,5,15.47,26.07,11.11,16.93,True,0.8,False,False,True,A225 V380 L381 K382 E383
+K495,495,0.378,6,26.9,22.44,24.25,13.6,True,1.0,False,False,True,K486 S492 K495 K531 E533 D560
+V380,380,0.371,8,20.41,28.89,15.47,22.77,True,0.5,False,False,True,D194 S195 A196 A225 S378 V380 L381 K382
+Q511,511,0.369,5,28.94,8.69,28.94,8.69,True,0.6,False,False,True,Q511 K514 F521 Y523 Q524
+K344,344,0.361,5,44.14,49.34,38.72,46.22,True,0.6,False,False,True,Y211 L212 E343 K344 G347
+G351,351,0.358,6,45.91,42.76,34.58,34.4,True,0.5,False,False,True,T248 E350 G351 D352 P354 R364
+L303,303,0.356,4,15.76,30.71,12.01,23.52,True,0.75,False,False,True,E272 L303 S327 S704
+G158,158,0.313,6,19.04,21.35,11.11,12.36,True,0.833,False,False,True,E156 G158 Q160 K382 E383 K385
+P354,354,0.294,7,40.94,34.4,31.02,27.85,True,0.286,False,False,True,D245 Y247 G351 D352 P354 S355 D356
+T491,491,0.293,7,34.56,24.91,33.21,18.23,True,0.571,False,False,True,T491 S492 V517 T518 R579 P581 E582
+E343,343,0.291,5,43.06,46.22,42.77,39.3,True,0.6,False,False,True,Q285 E343 K344 G347 R364
+D562,562,0.29,5,34.25,31.45,24.25,24.83,True,0.8,False,False,True,G260 K486 D560 T561 D562
+E156,156,0.287,4,22.95,25.17,19.04,20.35,True,1.0,False,False,True,P154 E156 G158 Q160
+I277,277,0.272,6,26.38,42.24,20.97,35.61,True,0.667,False,False,True,T229 N251 G252 E272 N275 I277
+N331,331,0.268,3,19.01,37.39,19.01,35.6,True,0.667,False,False,True,K224 E272 N331
+K374,374,0.268,7,32.74,48.13,25.33,42.17,True,0.286,False,False,True,D204 G207 R208 V210 T227 T229 K374
+T572,572,0.263,5,33.7,38.8,33.7,33.19,True,0.2,False,False,True,T569 T572 K574 I577 E578
+K486,486,0.26,4,24.25,29.56,21.53,22.44,True,1.0,False,False,True,K486 K495 D538 D562
+G207,207,0.255,8,38.65,56.01,30.49,48.13,True,0.375,False,False,True,D204 K205 N206 G207 R208 V210 T229 K374
+P323,323,0.861,5,2.99,21.08,2.66,10.71,True,0.8,True,False,False,Q320 F321 P322 P323 R325
+N758,758,0.809,4,5.14,3.02,4.26,3.02,True,1.0,True,True,False,S644 I756 D757 N758
+R121,121,0.766,6,18.13,3.84,13.36,3.31,True,0.833,False,True,False,R121 L122 Y123 D126 G441 Q443
+H318,318,0.742,6,3.33,6.8,2.66,6.8,True,1.0,True,False,False,N317 H318 T319 Q320 F321 G469
+S355,355,0.733,6,42.81,32.66,38.44,29.86,False,0.333,False,False,False,D352 P354 S355 D356 K358 S361
+D356,356,0.721,5,38.44,29.86,31.02,27.85,False,0.2,False,False,False,D245 P354 S355 D356 K358
+S327,327,0.698,6,12.01,30.74,3.72,23.77,True,0.667,True,False,False,L303 R325 S327 K693 E694 S695
+G724,724,0.696,8,15.05,24.33,5.57,16.77,False,0.625,False,False,False,L718 Q721 N722 N723 G724 A725 N727 E728
+N662,662,0.691,7,13.68,3.01,7.2,3.01,True,0.857,False,True,False,T657 T658 D659 G661 N662 E664 V670
+W754,754,0.677,6,2.47,12.28,2.47,6.29,True,0.667,True,False,False,D752 V753 W754 D755 I756 D757
+V753,753,0.672,7,2.62,12.81,2.47,8.07,False,0.714,True,False,False,A748 G751 D752 V753 W754 D755 I756
+Q320,320,0.67,7,2.66,10.71,2.66,6.8,True,1.0,True,False,False,N317 H318 T319 Q320 F321 P322 P323
+D757,757,0.669,5,5.75,6.29,2.47,3.02,True,0.8,True,True,False,W754 D755 I756 D757 N758
+G636,636,0.668,5,5.23,12.8,2.66,5.84,True,0.6,True,False,False,K633 E634 G636 S638 R732
+S472,472,0.666,7,2.88,16.06,2.84,11.84,True,1.0,True,False,False,G469 Y470 L471 S472 S473 H475 K477
+D245,245,0.663,5,31.02,27.85,24.3,25.68,False,0.4,False,False,False,E244 D245 Y247 P354 D356
+T666,666,0.637,7,8.87,4.93,3.05,2.93,True,0.857,True,True,False,V605 E664 K665 T666 D667 R668 V670
+R668,668,0.632,8,3.05,6.82,3.05,2.93,True,0.75,True,True,False,V397 V605 E664 T666 D667 R668 F669 V670
+R623,623,0.617,6,14.73,3.18,8.99,3.18,False,0.833,False,True,False,L619 S620 R623 D624 Q627 R646
+E634,634,0.616,5,10.17,8.66,5.23,2.26,False,0.2,False,True,False,R629 A630 K633 E634 G636
+Q721,721,0.616,8,19.57,17.9,14.44,15.17,False,0.5,False,False,False,K717 L718 K720 Q721 N722 N723 G724 A725
+F669,669,0.611,6,3.05,6.86,3.05,2.93,True,0.667,True,True,False,E664 D667 R668 F669 V670 K673
+K177,177,0.608,5,12.92,13.2,6.88,10.94,True,0.6,False,False,False,R174 E175 K177 S179 L438
+Y123,123,0.592,7,19.05,3.31,11.66,3.31,True,0.857,False,True,False,R121 L122 Y123 D125 D126 K128 D604
+F396,396,0.577,5,7.79,8.52,2.47,6.3,False,0.4,True,False,False,K394 F396 V397 P399 Q443
+K531,531,0.576,6,29.37,13.6,26.05,6.87,True,1.0,False,False,False,K495 D525 N527 S530 K531 E533
+Q627,627,0.571,7,13.81,7.55,10.0,2.26,True,0.429,False,True,False,R623 D624 Q627 R629 A630 K717 K720
+S530,530,0.567,7,27.99,10.88,16.88,6.87,True,1.0,False,False,False,D525 S526 N527 S530 K531 S616 S620
+N723,723,0.56,7,16.12,21.34,14.44,15.17,False,0.429,False,False,False,L718 K720 Q721 N722 N723 G724 A725
+W641,641,0.556,7,3.08,5.4,2.41,3.12,True,1.0,True,True,False,S638 Q640 W641 Y643 S644 A736 W740
+E133,133,0.548,5,26.01,12.83,20.44,6.75,True,0.8,False,False,False,K128 E133 D136 S137 D440
+T729,729,0.548,6,3.97,21.97,2.99,16.12,True,1.0,True,False,False,N727 E728 T729 L730 R732 N733
+E694,694,0.538,7,4.53,28.91,2.43,22.3,True,0.857,True,False,False,G312 S327 S691 P692 K693 E694 S695
+Q524,524,0.537,8,34.36,12.31,28.94,6.95,False,0.5,False,False,False,Q511 T518 Q520 F521 Y523 Q524 D525 S526
+G661,661,0.536,7,16.85,3.68,10.31,3.01,False,0.857,False,True,False,T657 T658 D659 G661 N662 E664 K665
+P249,249,0.534,7,33.21,38.07,25.05,32.79,False,0.429,False,False,False,Y247 T248 P249 N251 G252 L274 N275
+E664,664,0.534,9,11.4,3.03,3.05,2.93,True,0.778,True,True,False,G661 N662 E664 K665 T666 D667 R668 F669 V670
+K673,673,0.53,7,3.46,9.06,3.05,2.93,False,0.714,True,True,False,D659 D667 F669 V670 K673 D676 G751
+R325,325,0.529,3,6.84,26.53,2.99,21.08,False,0.667,True,False,False,P323 R325 S327
+D755,755,0.529,7,3.68,9.14,2.47,6.29,False,0.714,True,False,False,G751 D752 V753 W754 D755 I756 D757
+Q443,443,0.525,7,13.36,6.3,4.61,3.84,False,0.571,False,True,False,R121 L122 F396 V397 D440 G441 Q443
+D136,136,0.523,3,27.13,16.85,26.01,12.83,False,0.667,False,False,False,E133 D136 S137
+E383,383,0.519,6,11.11,16.93,5.39,12.36,True,0.833,False,False,False,G158 F321 L381 K382 E383 K385
+N215,215,0.518,4,36.29,43.96,30.73,37.95,False,0.25,False,False,False,Q197 L212 N215 G217
+E294,294,0.516,3,40.05,46.22,32.33,37.95,False,0.0,False,False,False,G217 N292 E294
+L438,438,0.515,6,14.74,11.72,6.88,10.76,False,0.833,False,False,False,K177 S179 L438 K439 D440 G441
+R629,629,0.514,6,10.0,2.26,2.66,2.26,False,0.333,True,True,False,Q627 R629 A630 K633 E634 S638
+P688,688,0.513,7,2.98,21.39,2.41,11.23,True,1.0,True,False,False,Y683 P688 Y689 P692 L737 W740 G744
+W740,740,0.513,7,2.41,11.23,2.41,5.4,True,1.0,True,False,False,W641 P688 Y689 A736 L737 W740 G744
+Q520,520,0.501,8,34.35,14.93,29.91,9.06,False,0.5,False,False,False,K514 V517 T518 G519 Q520 F521 Y523 Q524
+N527,527,0.501,5,31.37,6.87,27.99,6.87,True,1.0,False,False,False,D525 S526 N527 S530 K531
+K180,180,0.498,4,3.56,9.95,3.56,9.95,True,0.75,True,False,False,R174 S179 K180 K394
+T227,227,0.491,5,25.33,42.17,21.02,35.11,False,0.2,False,False,False,A225 T227 T229 K374 S378
+D125,125,0.489,5,23.51,3.73,18.34,3.31,False,0.8,False,True,False,L122 Y123 D125 D126 K128
+S616,616,0.489,5,19.26,7.89,16.43,3.5,True,1.0,False,True,False,S530 E612 S616 L619 S620
+E369,369,0.487,4,43.39,51.34,39.29,44.95,False,0.25,False,False,False,K205 E350 E369 S370
+N733,733,0.485,10,2.99,19.03,2.43,15.47,True,1.0,True,False,False,Y689 S706 N727 E728 T729 L730 R732 N733 A736 L737
+L212,212,0.483,5,38.72,49.42,36.29,43.96,False,0.2,False,False,False,V210 Y211 L212 N215 K344
+N317,317,0.481,6,3.68,9.41,2.66,6.8,True,0.833,True,False,False,Q185 N317 H318 T319 Q320 F321
+G217,217,0.475,5,32.33,37.95,30.73,37.95,False,0.2,False,False,False,Q197 N215 G217 E294 T569
+T229,229,0.468,6,30.49,48.46,25.33,42.17,False,0.5,False,False,False,G207 R208 T227 T229 I277 K374
+R174,174,0.467,5,9.26,13.48,3.56,9.95,False,0.8,True,False,False,N171 R174 E175 K177 K180
+P399,399,0.464,6,2.47,9.94,2.47,8.52,True,0.667,True,False,False,S179 K394 F396 V397 P399 D400
+E582,582,0.461,5,33.21,25.69,33.21,21.39,False,0.6,False,False,False,T491 V517 I577 P581 E582
+A736,736,0.459,6,3.07,15.47,2.41,5.4,True,1.0,True,False,False,W641 R732 N733 A736 L737 W740
+K717,717,0.455,7,15.64,15.3,13.81,7.55,True,0.714,False,False,False,Q627 E714 K717 L718 K720 Q721 A725
+R651,651,0.454,5,9.98,2.48,4.26,2.48,True,1.0,True,True,False,R646 F650 R651 R655 I756
+D352,352,0.452,7,44.82,40.05,40.94,32.66,False,0.571,False,False,False,E350 G351 D352 P354 S355 S361 R364
+L167,167,0.449,4,13.99,17.89,5.75,11.73,False,0.5,False,False,False,N164 L167 N171 R183
+T561,561,0.446,6,36.7,29.22,34.25,23.86,False,0.667,False,False,False,T286 P289 S492 D560 T561 D562
+S526,526,0.445,6,31.51,6.95,27.99,6.87,True,0.833,False,False,False,Y523 Q524 D525 S526 N527 S530
+R655,655,0.443,7,9.16,6.53,4.69,2.48,True,1.0,False,True,False,F650 R651 R655 T657 T658 D659 G751
+G705,705,0.443,6,12.53,21.38,7.06,15.56,True,0.833,False,False,False,S695 S704 G705 S706 P710 E714
+A725,725,0.441,8,14.44,23.65,7.65,15.3,True,0.625,False,False,False,K717 L718 Q721 N722 N723 G724 A725 N727
+V397,397,0.44,7,4.61,9.02,2.47,6.3,False,0.571,True,False,False,F396 V397 P399 Q443 D604 V605 R668
+Q285,285,0.438,6,43.24,39.3,42.15,35.68,False,0.667,False,False,False,Q285 T286 P289 V291 E343 S361
+S179,179,0.434,6,6.88,10.94,2.47,9.94,True,0.833,True,False,False,K177 S179 K180 K394 P399 L438
+A630,630,0.434,6,11.64,6.31,8.28,2.26,False,0.167,False,True,False,Q627 R629 A630 K633 E634 K720
+Y689,689,0.426,7,2.43,18.87,2.41,11.23,True,1.0,True,False,False,P688 Y689 S691 S695 N733 L737 W740
+T286,286,0.425,6,42.89,35.68,36.7,29.22,False,0.333,False,False,False,Q285 T286 P289 K358 S361 T561
+S473,473,0.422,8,2.84,14.33,2.84,11.84,True,1.0,True,False,False,D400 G469 Y470 L471 S472 S473 H475 K477
+Y211,211,0.419,4,41.64,54.2,38.72,49.34,False,0.25,False,False,False,V210 Y211 L212 K344
+Q640,640,0.418,5,6.15,3.68,2.66,3.12,True,1.0,True,True,False,S638 Q640 W641 Y643 S644
+F650,650,0.418,6,13.27,3.32,8.99,2.48,True,1.0,False,True,False,E612 L619 R646 F650 R651 R655
+T658,658,0.417,6,15.53,4.42,9.16,3.01,True,0.833,False,True,False,R655 T657 T658 D659 G661 N662
+E149,149,0.413,4,29.5,33.62,25.42,28.78,False,0.25,False,False,False,L146 E149 N150 S151
+S370,370,0.411,5,43.44,53.94,39.29,51.34,False,0.0,False,False,False,D204 K205 V210 E369 S370
+K693,693,0.411,7,3.72,23.77,2.43,22.3,False,0.857,True,False,False,G312 S327 S691 P692 K693 E694 S695
+D126,126,0.406,7,23.34,5.94,18.13,3.31,True,0.857,False,True,False,R121 L122 Y123 D125 D126 K128 D440
+T569,569,0.404,4,34.26,37.96,25.71,28.69,False,0.5,False,False,False,P154 G217 T569 T572
+S142,142,0.397,3,28.34,31.72,25.84,26.65,False,0.0,False,False,False,D139 S142 L146
+L274,274,0.395,8,25.09,32.79,20.97,25.68,False,0.625,False,False,False,E244 P249 N251 G252 E272 S273 L274 N275
+F521,521,0.394,8,31.89,9.06,28.94,8.69,False,0.5,False,False,False,Q511 K514 T518 G519 Q520 F521 Y523 Q524
+Y247,247,0.387,5,35.47,35.24,31.02,27.85,False,0.2,False,False,False,D245 Y247 T248 P249 P354
+D440,440,0.383,8,20.44,12.82,13.36,5.94,True,0.75,False,False,False,L122 D126 E133 L438 K439 D440 G441 Q443
+L619,619,0.382,7,16.43,3.5,8.99,3.18,True,0.857,False,True,False,S616 L619 S620 R623 D624 R646 F650
+S620,620,0.382,6,16.88,7.26,14.34,3.18,True,0.833,False,True,False,S530 S616 L619 S620 R623 D624
+Y643,643,0.377,6,8.41,3.64,2.66,3.12,True,1.0,True,True,False,S638 Q640 W641 Y643 S644 R646
+T518,518,0.375,8,35.88,18.23,29.91,9.06,False,0.5,False,False,False,T491 K514 V517 T518 G519 Q520 F521 Q524
+D139,139,0.371,3,26.65,26.65,26.43,21.46,False,0.333,False,False,False,S137 D139 S142
+S706,706,0.368,10,8.84,19.5,2.99,15.56,True,0.9,True,False,False,S695 S704 G705 S706 P710 E714 N727 L730 N733 L737
+S638,638,0.367,7,2.66,7.4,2.66,2.26,True,0.714,True,True,False,R629 K633 G636 S638 Q640 W641 Y643
+T536,536,0.366,4,21.09,25.64,21.09,18.57,False,0.75,False,False,False,E533 K534 T536 D538
+V210,210,0.365,8,43.1,56.48,32.74,48.13,False,0.25,False,False,False,D204 G207 R208 V210 Y211 L212 S370 K374
+R579,579,0.365,6,37.45,32.95,34.56,24.91,False,0.333,False,False,False,T491 K574 I577 E578 R579 P581
+R680,680,0.365,5,3.69,18.4,2.86,12.88,False,0.8,True,False,False,H475 D676 R680 Y683 A748
+N292,292,0.364,3,42.62,47.08,40.05,44.81,False,0.333,False,False,False,V291 N292 E294
+D604,604,0.363,7,11.66,10.02,4.61,3.31,True,0.857,False,True,False,Y123 V397 D604 V605 E606 N608 K665
+A196,196,0.361,7,28.05,36.89,20.41,28.89,False,0.429,False,False,False,D194 S195 A196 Q197 A225 S378 V380
+H475,475,0.361,8,2.86,21.19,2.84,11.84,True,0.875,True,False,False,Y470 L471 S472 S473 H475 K477 R680 Y683
+K205,205,0.359,6,39.29,57.18,38.65,51.34,False,0.333,False,False,False,D204 K205 N206 G207 E369 S370
+L737,737,0.357,8,3.96,17.04,2.41,11.23,True,1.0,True,False,False,P688 Y689 S706 R732 N733 A736 L737 W740
+S151,151,0.355,6,25.42,28.78,18.94,22.54,False,0.333,False,False,False,L146 E149 N150 S151 P154 N164
+P692,692,0.355,8,2.98,27.13,2.43,18.36,True,0.875,True,False,False,G312 L471 P688 S691 P692 K693 E694 S695
+K477,477,0.351,6,4.52,14.85,2.84,11.84,True,1.0,True,False,False,D400 Y470 S472 S473 H475 K477
+D752,752,0.351,7,4.43,12.21,2.47,8.07,True,0.714,True,False,False,A748 G751 D752 V753 W754 D755 I756
+P710,710,0.35,7,16.14,15.56,8.84,6.41,False,0.857,False,False,False,K534 D624 S704 G705 S706 P710 E714
+S644,644,0.349,6,5.65,3.12,3.08,3.02,True,1.0,True,True,False,Q640 W641 Y643 S644 R646 N758
+K394,394,0.345,6,4.51,10.13,2.47,8.52,True,0.833,True,False,False,S179 K180 K394 F396 P399 D400
+K385,385,0.343,4,11.74,12.36,8.27,9.22,False,0.5,False,False,False,G158 Q185 E383 K385
+S691,691,0.343,7,2.43,28.88,2.43,18.87,True,0.857,True,False,False,G312 Y689 S691 P692 K693 E694 S695
+R208,208,0.34,7,38.5,54.38,30.49,48.13,False,0.429,False,False,False,D204 N206 G207 R208 V210 T229 K374
+P322,322,0.339,5,3.02,17.61,2.66,10.71,True,1.0,True,False,False,T319 Q320 F321 P322 P323
+D676,676,0.338,3,5.46,13.71,3.46,9.06,True,0.333,True,False,False,K673 D676 R680
+Q185,185,0.334,4,8.27,9.22,3.68,9.22,False,0.5,True,False,False,R183 Q185 N317 K385
+E728,728,0.334,7,5.57,17.78,2.99,16.12,True,0.857,True,False,False,G724 N727 E728 T729 L730 R732 N733
+R183,183,0.333,3,5.75,11.73,5.75,9.22,True,0.333,False,False,False,L167 R183 Q185
+D667,667,0.333,9,6.88,2.93,3.05,2.93,False,0.778,True,True,False,V605 E664 K665 T666 D667 R668 F669 V670 K673
+E606,606,0.332,5,12.02,6.89,9.13,5.78,True,1.0,False,False,False,D604 V605 E606 N608 K665
+D624,624,0.331,6,14.34,6.41,13.81,3.18,True,0.667,False,True,False,L619 S620 R623 D624 Q627 P710
+K665,665,0.33,9,10.31,5.78,6.88,2.93,True,0.778,False,True,False,D604 V605 E606 G661 E664 K665 T666 D667 V670
+E578,578,0.325,6,37.71,35.75,33.7,30.56,False,0.333,False,False,False,T572 K574 I577 E578 R579 P581
+N727,727,0.325,10,7.65,21.07,2.99,16.12,True,0.9,True,False,False,S706 L718 G724 A725 N727 E728 T729 L730 R732 N733
+L730,730,0.324,7,5.83,20.92,2.99,16.12,True,1.0,True,False,False,S706 N727 E728 T729 L730 R732 N733
+E612,612,0.322,5,16.85,7.06,13.27,3.32,True,1.0,False,True,False,T504 E612 S616 F650 T657
+A748,748,0.322,8,3.69,12.88,2.62,8.07,True,0.75,True,False,False,R680 Y683 G744 A748 G751 D752 V753 I756
+I756,756,0.322,11,4.26,8.07,2.47,2.48,True,0.818,True,True,False,R651 G744 A748 G751 D752 V753 W754 D755 I756 D757 N758
+L471,471,0.32,8,5.03,18.36,2.84,11.84,True,1.0,True,False,False,G312 G469 Y470 L471 S472 S473 H475 P692
+S704,704,0.32,6,12.44,23.52,7.06,15.56,True,0.833,False,False,False,L303 S695 S704 G705 S706 P710
+D525,525,0.317,7,33.63,11.17,27.99,6.87,True,0.857,False,False,False,Y523 Q524 D525 S526 N527 S530 K531
+D204,204,0.31,8,39.32,57.1,32.74,48.13,False,0.375,False,False,False,D204 K205 N206 G207 R208 V210 S370 K374
+G744,744,0.31,5,2.88,13.03,2.41,8.07,True,1.0,True,False,False,P688 W740 G744 A748 I756
+Y683,683,0.309,5,3.53,21.69,2.86,12.88,True,0.8,True,False,False,H475 R680 Y683 P688 A748
+L146,146,0.306,4,25.84,31.89,25.42,28.78,False,0.0,False,False,False,S142 L146 E149 S151
+D400,400,0.306,5,3.48,12.19,2.47,9.94,True,1.0,True,False,False,K394 P399 D400 S473 K477
+D659,659,0.306,9,10.84,5.86,3.46,3.01,True,0.778,True,True,False,R655 T657 T658 D659 G661 N662 V670 K673 G751
+V605,605,0.301,8,9.13,11.36,3.05,2.93,True,0.75,True,True,False,V397 D604 V605 E606 K665 T666 D667 R668
+T657,657,0.301,7,14.85,7.46,9.16,3.01,True,0.857,False,True,False,E612 R655 T657 T658 D659 G661 N662
+K633,633,0.298,6,8.28,5.84,2.66,2.26,False,0.333,True,True,False,R629 A630 K633 E634 G636 S638
+L122,122,0.295,8,18.34,6.42,13.36,3.31,True,0.75,False,True,False,R121 L122 Y123 D125 D126 D440 G441 Q443
+D194,194,0.293,8,25.63,32.88,17.4,22.77,False,0.5,False,False,False,D194 S195 A196 Q197 A225 S378 V380 K382
+R732,732,0.293,9,3.02,16.12,2.99,12.8,True,1.0,True,False,False,G636 N727 E728 T729 L730 R732 N733 A736 L737
+K358,358,0.292,4,42.08,32.23,38.44,29.86,False,0.0,False,False,False,T286 S355 D356 K358
+T504,504,0.29,3,23.02,10.72,15.33,7.06,True,1.0,False,False,False,T504 N608 E612
+Y470,470,0.286,7,4.26,11.84,2.84,11.84,True,1.0,True,False,False,G469 Y470 L471 S472 S473 H475 K477
+L718,718,0.284,10,16.54,18.71,7.65,15.17,True,0.6,False,False,False,E714 K717 L718 K720 Q721 N722 N723 G724 A725 N727
+N608,608,0.278,4,15.33,10.75,11.66,6.89,True,1.0,False,False,False,T504 D604 E606 N608
+G469,469,0.277,8,3.42,15.52,2.84,6.8,True,1.0,True,False,False,G312 H318 T319 G469 Y470 L471 S472 S473
+V670,670,0.277,10,7.2,3.6,3.05,2.93,True,0.8,True,True,False,D659 N662 E664 K665 T666 D667 R668 F669 V670 K673
+N164,164,0.275,5,18.94,22.54,13.99,17.89,False,0.4,False,False,False,S151 P154 Q160 N164 L167
+Y523,523,0.271,7,31.7,9.63,28.94,6.95,True,0.571,False,False,False,Q511 Q520 F521 Y523 Q524 D525 S526
+G751,751,0.271,9,4.69,12.74,2.62,5.86,True,0.667,True,False,False,R655 D659 K673 A748 G751 D752 V753 D755 I756
+G441,441,0.27,7,18.01,10.76,13.36,3.84,True,0.714,False,True,False,R121 L122 L438 K439 D440 G441 Q443
+K574,574,0.27,5,35.66,38.71,33.7,32.95,False,0.2,False,False,False,T572 K574 I577 E578 R579
+A225,225,0.268,8,21.02,35.23,15.47,26.07,False,0.375,False,False,False,D194 A196 K224 A225 T227 S378 V380 L381
+T319,319,0.267,7,3.07,12.52,2.66,6.8,True,1.0,True,False,False,N317 H318 T319 Q320 F321 P322 G469
+S378,378,0.264,8,24.23,35.11,20.41,28.89,False,0.375,False,False,False,D194 S195 A196 Q197 A225 T227 S378 V380
+K128,128,0.263,5,22.62,6.75,19.05,3.31,True,0.8,False,True,False,Y123 D125 D126 K128 E133
+E272,272,0.262,8,20.97,35.61,15.76,30.71,False,0.75,False,False,False,K224 E272 S273 L274 N275 I277 L303 N331
+S695,695,0.262,11,7.06,27.88,2.43,18.87,True,0.909,True,False,False,G312 S327 Y689 S691 P692 K693 E694 S695 S704 G705 S706
+T248,248,0.26,5,34.58,37.38,30.85,35.24,False,0.4,False,False,False,Y247 T248 P249 N251 G351
+R364,364,0.259,6,42.77,42.38,42.77,40.05,False,0.667,False,False,False,E343 G347 E350 G351 D352 R364
+G312,312,0.255,8,3.05,22.3,2.43,15.52,True,0.875,True,False,False,G312 G469 L471 S691 P692 K693 E694 S695
+F321,321,0.255,8,5.39,13.52,2.66,6.8,True,1.0,True,False,False,N317 H318 T319 Q320 F321 P322 P323 E383
+I577,577,0.254,7,34.82,33.19,33.21,25.69,False,0.286,False,False,False,T572 K574 I577 E578 R579 P581 E582
+R646,646,0.253,7,8.99,3.39,5.65,2.48,True,0.857,False,True,False,L619 R623 Y643 S644 R646 F650 R651
+K720,720,0.251,8,16.85,15.17,11.64,6.31,False,0.5,False,False,False,Q627 A630 K717 L718 K720 Q721 N722 N723
