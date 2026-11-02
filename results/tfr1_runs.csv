@@ -1,0 +1,7 @@
+run,platform,generator,fold_class,target,target_residues,hotspots,designs,metric,best_score,best_min_pae,site_engaged_in_top5,passed_filters,minutes,outcome
+1,Colab T4,BoltzGen,miniprotein,apical domain + 6 neighbouring segments (crop),295,"K193,V380,L381,K382",20,ipTM,0.39,,not measured,3/20 boltzgen filters,134,none usable
+2,Colab T4,BoltzGen,miniprotein,apical domain only (crop),195,"L209,V210,Y211,L212",20,ipTM,0.25,,not measured,1/20 boltzgen filters,85,none usable
+3,Colab T4,BoltzGen,miniprotein,apical domain only (crop),195,none (binding-site filter off),20,ipTM,0.29,,not measured,1/20 boltzgen filters,87,none usable
+4,Tamarind,BoltzGen,miniprotein,11QC chain A (intact),639,"K189,V192,V380,L381,K382",50,design_to_target_ipTM,0.286,9.99,0 of 5 residues (ranks 1-5),0/50,58,none usable; confident designs bound away from the hotspots
+5,Tamarind,BoltzGen,nanobody (7 VHH frameworks),11QC chain A (intact),639,"K189,V192,V380,L381,K382",50,iiPTM,0.862,2.26,4 of 5 residues (rank 1),0/50,44,artifact; top CDRs were poly-glycine
+6,Tamarind,BoltzGen,nanobody; omit C and G,11QC chain A (intact),639,"K189,V192,V380,L381,K382",50,iiPTM,0.337,16.19,0 of 5 residues (ranks 1-4),0/50,44,none usable; chemistry fixed but confidence and engagement collapsed
