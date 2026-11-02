@@ -11,6 +11,12 @@ Why this exists
   It also reports anything within --check of the hotspots that it could not keep, so you
   can see whether the crop is honest before spending GPU time.
 
+  Finally it checks that each hotspot is actually SOLVENT-EXPOSED. Naming a buried residue
+  as a hotspot asks the generator to contact something a binder cannot reach. Two of the
+  five residues used in this project's Challenge 4 "Site P" runs, K189 (RSA 0.14) and V192
+  (RSA 0.15), were below the cutoff and should never have been in the spec - see
+  docs/lessons_challenge4.md item 33.
+
 Residue numbering
   Output chains are renumbered from 1. BoltzGen YAML counts residues from the first residue
   of each chain, so the printed map gives the index to put in `binding:`. Verify with
@@ -21,7 +27,7 @@ Usage
   python 09_build_target_crop.py --pdb 11QC.pdb --chain A --core 189-383 \
       --hotspots 189,192,380,381,382 --radius 20 --out TfR1_crop.pdb
 """
-import argparse, collections, csv, math
+import argparse, collections, csv, math, sys
 
 AA3 = {'ALA','ARG','ASN','ASP','CYS','GLN','GLU','GLY','HIS','ILE','LEU','LYS',
        'MET','PHE','PRO','SER','THR','TRP','TYR','VAL'}
@@ -40,6 +46,8 @@ def main():
     ap.add_argument("--radius", type=float, default=20.0, help="context radius, angstrom")
     ap.add_argument("--check", type=float, default=15.0, help="warn about omissions within this")
     ap.add_argument("--min-segment", type=int, default=4)
+    ap.add_argument("--rsa-min", type=float, default=0.25,
+                    help="minimum relative solvent accessibility for a hotspot")
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
 
@@ -55,6 +63,36 @@ def main():
     missing_hot = [h for h in hot if h not in res]
     if missing_hot:
         raise SystemExit(f"hotspots absent from chain {a.chain}: {missing_hot}")
+
+    # --- hotspot exposure: a buried hotspot cannot be engaged by a binder ---
+    buried = []
+    try:
+        import copy
+        from Bio.PDB import PDBParser
+        from Bio.PDB.SASA import ShrakeRupley
+        from Bio.PDB.Polypeptide import is_aa
+        from Bio.SeqUtils import seq1
+        MAXASA = dict(A=129, R=274, N=195, D=193, C=167, Q=225, E=223, G=104, H=224, I=197,
+                      L=201, K=236, M=224, F=240, P=159, S=155, T=172, W=285, Y=263, V=174)
+        ch = copy.deepcopy(PDBParser(QUIET=True).get_structure("x", a.pdb)[0][a.chain])
+        for r in list(ch):
+            if not is_aa(r, standard=True):
+                ch.detach_child(r.id)
+        ShrakeRupley(n_points=960).compute(ch, level="R")
+        print("hotspot exposure (RSA on the isolated chain, Tien et al. 2013 max ASA):")
+        for r in ch:
+            if r.id[1] in hot:
+                v = r.sasa / MAXASA[seq1(r.get_resname())]
+                tag = "OK" if v >= a.rsa_min else f"BURIED - below {a.rsa_min}"
+                print(f"   {ONE[res[r.id[1]]['name']]}{r.id[1]}: RSA {v:.3f}   {tag}")
+                if v < a.rsa_min:
+                    buried.append(f"{ONE[res[r.id[1]]['name']]}{r.id[1]} (RSA {v:.3f})")
+    except ImportError:
+        print("biopython not installed; skipping the hotspot exposure check")
+    if buried:
+        print(f"   WARNING: {', '.join(buried)} too buried to be engaged by a binder. "
+              f"Remove them from the spec, or the generator will be asked to contact "
+              f"residues it cannot reach and will bind elsewhere instead.")
     hot_atoms = [p for h in hot for p in atoms(h)]
 
     lo, hi = (int(x) for x in a.core.split("-"))
