@@ -55,6 +55,36 @@ usable design (best ipTM 0.46, ipSAE 0.11 with a valid target), so nothing was s
 the binders had filled the position of the omitted third protomer. See `results/tnf\_boltzgen\_runs.csv`, `docs/lessons.md` (items 10-14)
 and `scripts/06\_tnf\_epitope\_analysis.py` (epitope mapping and surface-patch ranking). I include it because the failure modes are instructive.
 
+## Challenge 4 (TfR1, pH-sensitive shuttle binder): negative result
+
+The fourth challenge asked for a binder of human TfR1 that binds at pH 7.4, releases at pH 6.0 and also
+binds mouse TfR1, with the apical domain around Tyr211 given as an epitope hint. **Nothing was submitted.**
+Six runs across two generators, two fold classes and five sites produced no design that engaged the
+requested epitope with credible confidence ([`results/tfr1_runs.csv`](results/tfr1_runs.csv)).
+
+The useful output is the screen rather than the designs.
+[`results/tfr1_site_screen.csv`](results/tfr1_site_screen.csv) scores all 281 surface patches of TfR1 on
+four criteria - exposed apolar area, mouse conservation, burial by the homodimer partner, and overlap with
+the transferrin footprint - and finds that the apical domain is caught in a squeeze: its one greasy patch
+(Y211, 324 A^2 apolar) is only 29% conserved in mouse, while its fully conserved patches are small and
+polar. The two best-scoring patches on the whole receptor turned out to be unusable, both buried at the
+dimer interface.
+
+Three scripts here generalise beyond this target:
+
+* [`scripts/08_biological_assembly_check.py`](scripts/08_biological_assembly_check.py) - expands a PDB entry
+to its REMARK 350 biological assembly and reports whether candidate hotspots are buried in it. Written after
+this mistake was made three times: a deposited chain can be a crystal neighbour rather than a real partner,
+and a real partner can be a symmetry copy that is not in the file at all. On 3S9L it shows both at once.
+* [`scripts/07_tfr1_site_screen.py`](scripts/07_tfr1_site_screen.py) - the four-criterion patch screen above.
+* [`scripts/09_build_target_crop.py`](scripts/09_build_target_crop.py) - crops a receptor to a design target
+while keeping all context within a radius of the hotspots, and reports anything near the site it had to omit,
+so a crop cannot silently leave a hole for a binder to fill.
+
+Lessons (items 20-32), including the poly-glycine CDR artifact and the single-variable control that exposed
+it: [`docs/lessons_challenge4.md`](docs/lessons_challenge4.md). Colab notebooks for the three free-tier runs
+(target and spec embedded, no designs): [`notebooks/`](notebooks/).
+
 ## Reproducing
 
 ```bash
