@@ -59,7 +59,7 @@ and `scripts/06\_tnf\_epitope\_analysis.py` (epitope mapping and surface-patch r
 
 The fourth challenge asked for a binder of human TfR1 that binds at pH 7.4, releases at pH 6.0 and also
 binds mouse TfR1, with the apical domain around Tyr211 given as an epitope hint. **Nothing was submitted.**
-Six runs across two generators, two fold classes and five sites produced no design that engaged the
+Six runs across two platforms, two fold classes and five sites produced no design that engaged the
 requested epitope with credible confidence ([`results/tfr1_runs.csv`](results/tfr1_runs.csv)).
 
 The useful output is the screen rather than the designs.
@@ -84,6 +84,38 @@ so a crop cannot silently leave a hole for a binder to fill.
 Lessons (items 20-32), including the poly-glycine CDR artifact and the single-variable control that exposed
 it: [`docs/lessons_challenge4.md`](docs/lessons_challenge4.md). Colab notebooks for the three free-tier runs
 (target and spec embedded, no designs): [`notebooks/`](notebooks/).
+
+### The rank-1 design was threaded through the target
+
+The run-5 nanobody that scored best overall (iiPTM 0.862, minimum interface PAE 2.26 A - the most
+confident result of all six runs) had CDR1 `GGGGGG` and CDR3 ending `GGGGGGG`. That looked like a
+low-complexity sequence artifact. It was not. Measured on the ranked output, chain A (TfR1, 639 res)
+against chain B (nanobody, 120 res), backbone atoms only:
+
+|measure|value|
+|---|---|
+|closest backbone-atom pair between the chains|0.41 A|
+|backbone pairs under 2.0 / 2.5 / 3.0 A|126 / 248 / 437|
+|CA-CA pairs under 4.0 A|65 (minimum 1.10 A)|
+|CDR1 residues inside the target CA convex hull|10 of 10|
+|CDR3 residues inside the target CA convex hull|12 of 13|
+
+The closest contact is TfR1 Phe66 O against CDR3 Gly105 C. Two polypeptide backbones cannot be 0.41 A
+apart, so the chains interpenetrate - this is not a complex. The glycine runs are exactly the residues
+driven into the target: a backbone with no side chains is the thinnest thing that can be routed through
+occupied space, so the composition was a symptom of the geometry rather than a separate defect. The
+design does engage the requested Site P residues. It is aimed correctly and physically impossible.
+
+ipTM, iiPTM, ipSAE and pDockQ2 all score how consistently two chains are placed relative to each other.
+None of them contains a steric term, so an interpenetrating pose can score well.
+[`scripts/10_interchain_backbone_clash.py`](scripts/10_interchain_backbone_clash.py) is the check: under
+about 2.2 A there is no complex. The numbers above were reproduced from the raw CIF with an independent
+`awk` parse that does not share the Biopython code path.
+
+One caveat on provenance: these are read from the file the run ranked first, whose name ends
+`_design_spec_`. If a pipeline writes its generated backbone in a frame that is not its docked output,
+the correct statement is "the generated backbone overlaps the target" rather than "the predicted complex
+clashes". Confirm which artefact your tool treats as the final complex before generalising.
 
 ## Reproducing
 
